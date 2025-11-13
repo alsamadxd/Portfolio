@@ -104,7 +104,7 @@ const Footer = () => {
               </a>
             </div>
             <a
-              href="images/my-cv.pdf"
+              href="my-cv.pdf"
               download
               className="inline-block bg-[#262626] hover:bg-[#ff004f] text-white my-3 py-3 px-12 mt-6 rounded-md text-lg duration-200"
             >
