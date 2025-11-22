@@ -3,11 +3,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faSquareGithub,
   faFacebook,
-  // add the linkedin logo and remove the twitter
-  faTwitter,
   faInstagram,
+  faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
-import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons"; // Correct import
+import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons"; 
 
 const Footer = () => {
   const [formData, setFormData] = useState({
@@ -100,7 +99,7 @@ const Footer = () => {
                 href="https://twitter.com"
                 className="text-gray-400  hover:text-[#ff004f] transition transform hover:-translate-y-2"
               >
-                <FontAwesomeIcon icon={faTwitter} size="2x" />
+                <FontAwesomeIcon icon={faLinkedin} size="2x" />
               </a>
             </div>
             <a
